@@ -27,7 +27,7 @@ apt-get update &> /dev/null
 
 hash python &> /dev/null || {
 	echo '+ Installing Python'
-	apt-get install -y python > /dev/null
+	apt-get install -y python python-dev > /dev/null
 }
 
 hash pip &> /dev/null || {
